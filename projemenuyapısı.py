@@ -2,7 +2,7 @@ while True:
     secim = input("Lütfen bir seçenek seçin:\n1-Sisteme Üye Ol\n2-Sisteme Giriş Yap\n3-Şifremi Unuttum\nSeçiminiz: ")
 
     if secim == "1":
-        # Sisteme üye olma işlemleri burada yapılacak
+       
         print("Sisteme üye olma işlemleri yapılıyor...")
         ad = input("Adınız: ")
         soyad = input("Soyadınız: ")
@@ -16,7 +16,7 @@ while True:
         break
 
     elif secim == "2":
-        # Sisteme giriş yapma işlemleri burada yapılacak
+        
         print("Sisteme giriş yapma işlemleri yapılıyor...")
         kullanici_adi = input("Kullanıcı adı: ")
         sifre = input("Şifre: ")
@@ -33,7 +33,7 @@ while True:
             print("Kullanıcı adı veya şifre yanlış. Lütfen tekrar deneyin.")
 
     elif secim == "3":
-        # Şifremi unuttum işlemleri burada yapılacak
+        
         print("Şifremi unuttum işlemleri yapılıyor...")
         kullanici_ad = input("Kullanıcı adınızı girin: ")
 
