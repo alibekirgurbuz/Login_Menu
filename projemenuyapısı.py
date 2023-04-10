@@ -1,5 +1,5 @@
 while True:
-    secim = input("Lütfen bir seçenek seçin:\n1-Sisteme Üye Ol\n2-Sisteme Giriş Yap\n3-Şifremi Unuttum\nSeçiminiz: ")
+    secim = input("Lütfen birini seçin:\n1-Sisteme Üye Ol\n2-Sisteme Giriş Yap\n3-Şifremi Unuttum\nSeçiminiz: ")
 
     if secim == "1":
        
