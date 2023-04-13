@@ -1,1 +1,13 @@
 Bu proje Algoritma ve Programlama-2 Dersi Final Projesidir.
+
+
+
+DEPREMZEDE KONUM VE DURUM BİLDİRİ PROGRAMI
+
+1- TC kimlik numaranızı giriniz.
+2- Bulunduğunuz ili, ilçeyi ve mahalleyi giriniz.
+3- Yanınızda bulunan kişilerin isimlerini giriniz.
+4- İletişim kurulabilmesi için bir telefon numarası giriniz.	
+
+  Deprem anında müdahalenin çabuk ve etkili olabilmesi için depremzede vatandaşların 
+konumlarının ve durumlarının afet koordinasyon birimlerine ulaştırılmasının sağlanması. 
