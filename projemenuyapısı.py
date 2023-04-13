@@ -3,7 +3,7 @@ while True:
 
     if secim == "1":
        
-        print("Sisteme üye olma işlemleri yapılıyor...")
+        print("Sisteme üye olma işlemleri yapılıyor.")
         ad = input("Adınız: ")
         soyad = input("Soyadınız: ")
         kullanici_adi = input("Kullanıcı adı: ")
@@ -12,12 +12,12 @@ while True:
         with open("kullanicilar.txt", "a") as dosya:
             dosya.write(kullanici_adi + "," + sifre + "," + ad + "," + soyad + "\n")
         
-        print("Kaydınız başarıyla oluşturuldu. Giriş yapabilirsiniz.")
+        print("Kaydınız oluşturuldu. Giriş yapabilirsiniz.")
         break
 
     elif secim == "2":
         
-        print("Sisteme giriş yapma işlemleri yapılıyor...")
+        print("Sisteme giriş yapma işlemleri yapılıyor.")
         kullanici_adi = input("Kullanıcı adı: ")
         sifre = input("Şifre: ")
 
@@ -34,7 +34,7 @@ while True:
 
     elif secim == "3":
         
-        print("Şifremi unuttum işlemleri yapılıyor...")
+        print("Şifremi unuttum işlemleri yapılıyor.")
         kullanici_ad = input("Kullanıcı adınızı girin: ")
 
         with open("kullanicilar.txt", "r") as dosya:
@@ -51,7 +51,7 @@ while True:
                 with open("kullanicilar.txt", "w") as dosya:
                     dosya.writelines(kullanicilar)
 
-                print("Şifreniz başarıyla değiştirildi!")
+                print("Şifreniz değiştirildi!")
                 break
         else:
             print("Kullanıcı adı yanlış!")
