@@ -1,1 +1,2 @@
-buyanlar,155,kedi,buyan
+
+özal123,123,Ahmet,Özal

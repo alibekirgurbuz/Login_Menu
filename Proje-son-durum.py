@@ -60,10 +60,10 @@ while True:
                             mahalle = input("Lütfen mahallenizi girin: ")
                             dosya.write("Mahalle: " + mahalle + "\n")
                         print("Konum bilgileri başarıyla kaydedildi!")
-                        TCKONTROL()
-                        isimleri_kaydet()
-                        telno()
-                        konumları_kaydet()
+                    TCKONTROL()
+                    isimleri_kaydet()
+                    telno()
+                    konumları_kaydet()
                     break
             else:
                 print("Kullanıcı adı veya şifre yanlış. Lütfen tekrar deneyin.")
